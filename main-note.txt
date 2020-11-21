@@ -1,0 +1,7 @@
+Backend should be working on 4000
+frontend on 3000
+and keys must not be expired 
+
+routes are being handled as everything in a single folder 
+what when we have 2 folders like backend and client
+we will run the app through docker and we will manage routing through nginx  
