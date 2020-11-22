@@ -44,7 +44,7 @@ passport.deserializeUser(async (id, done) => {
 }); // after getting that id, we will translate that into the data
 
 //! For Google
-//? https://console.developers.google.com/
+//? https://console.developers.google.com/ -- and must also enable google+ API
 passport.use(
   new GoogleStrategy(
     {
